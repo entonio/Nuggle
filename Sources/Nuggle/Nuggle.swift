@@ -4,7 +4,7 @@
 
 import Foundation
 
-public struct Nuggle: Codable {
+public struct Nuggle: Codable, Sendable {
     private let num: SplitDecimal
     private let den: Int
 
